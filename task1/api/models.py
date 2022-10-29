@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 class UserInfo(models.Model):
-    username = models.CharField(max_length=20)
+    slackUsername = models.CharField(max_length=20)
     backend = models.BooleanField()
     age = models.IntegerField()
     bio = models.TextField()
